@@ -44,8 +44,7 @@ START_PIC = os.environ.get("START_PIC","https://envs.sh/zgj.jpg")
 START_MSG = os.environ.get("START_MESSAGE", "ᴋᴏɴɪᴄʜɪᴡᴀ {mention}\n\n<blockquote>ᴋᴏɴɪᴄʜɪᴡᴀ ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴀɴɪᴍᴇ/ᴍᴏᴠɪᴇ ғɪʟᴇs ɪɴ @Anime_Stardust ᴄʜᴀɴɴᴇʟ  ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote>")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "5548954124 5826613686  6465096751 7378365553 
-1309776707 7186887048 6266529037").split()):
+    for x in (os.environ.get("ADMINS", "5548954124 5826613686 6465096751 7378365553 1309776707 7186887048 6266529037").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
