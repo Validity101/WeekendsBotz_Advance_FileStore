@@ -70,7 +70,7 @@ AUTO_DEL_SUCCESS_MSG = os.environ.get("AUTO_DEL_SUCCESS_MSG", "<blockquote>уσ�
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b><blockquote>BOT UPTIME</b>\n{uptime}</blockquote>"
-USER_REPLY_TEXT = "<blockquote>ᴀʀᴀ!! ᴀʀᴀ!! ɪᴀᴍ ᴏɴʟʏ ᴡᴏʀᴋ ғᴏʀ ᴍʏ ʟᴏᴠᴇʟʏ ᴋᴀᴡᴀɪɪ 🥰 @JeffreySama !</blockquote>"
+USER_REPLY_TEXT = "<blockquote>ᴀʀᴀ !! ʏᴏᴜ ᴄᴀɴ ʀᴇǫᴜᴇsᴛ ᴀᴍ ᴀɴɪᴍᴇ ʜᴇʀᴇ @ᴄʜᴀᴛʜᴜʙ_sᴛᴀʀᴅᴜsᴛ ☺</blockquote>"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(5548954124)
