@@ -11,31 +11,31 @@ load_dotenv()
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8132535187:AAFhR4tm_quG8nONXRj1ugDfxTio8_oSpJk")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "28744454"))
+APP_ID = int(os.environ.get("APP_ID", "24890303"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "debd37cef0ad1a1ce45d0be8e8c3c5e7")
+API_HASH = os.environ.get("API_HASH", "94cf78d1e6883ecb10f32e31fc23cfe0")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002289759099"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002755896210"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6266529037"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7289855833"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://jeffreymosesdj:Jeffrey@cluster2.cuiux.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluster2")
+DB_URI = os.environ.get("DATABASE_URL", "")
+DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 
 JOIN_REQUEST_ENABLE = os.environ.get("JOIN_REQUEST_ENABLED", None)
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1002076655534"))
-FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "-1002369384920"))
-FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", "-1002172787340"))
-FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "-1002244170363"))
+FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1002157930558"))
+FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "0"))
+FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", "0"))
+FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -61,7 +61,7 @@ CUSTOM_CAPTION = os.environ.get("@Ongoing_Weekends")
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
 # Auto delete time in seconds.
-AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", "600"))
+AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", "0"))
 AUTO_DELETE_MSG = os.environ.get("AUTO_DELETE_MSG", "⚠️ Dᴜᴇ ᴛᴏ Cᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs....\n\n<blockquote>This file will be automatically deleted in {time} seconds. Please ensure you have saved any necessary content before this time.</blockquote>")
 AUTO_DEL_SUCCESS_MSG = os.environ.get("AUTO_DEL_SUCCESS_MSG", "<blockquote>уσυя fιℓє нαѕ вєєи ѕυccєѕѕfυℓℓу ∂єℓєтє∂! ♻️</blockquote>")
 
